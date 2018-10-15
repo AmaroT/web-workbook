@@ -94,14 +94,11 @@ a:hover::after{
 a:hover{
     color:silver;
 }
-#logo {
-    float:right;
 
-}
 
 /*Main content*/
 
-ul#main li{
+ul.main li{
     list-style:none;
     padding: 10px;
     border:#cccccc solid 1px;
