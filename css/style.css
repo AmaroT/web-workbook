@@ -1,0 +1,57 @@
+/* this the style for the landing page*/
+/* You can style your links page here */
+body {
+    background: url("/css/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+.header {
+    font: 20px;
+    color:whitesmoke;
+    text-align: center;
+    margin: center;
+    float: center;
+    max-width: auto;
+    height: 75px;
+}
+
+main {
+    background-color:#d3d3d3;
+    opacity:.5;
+}
+.week {
+    color:crimson;
+    font-size: 20px;
+    border: 3px groove grey;
+       
+}
+p {
+    text-indent:50px;
+}
+
+.week:hover > p {
+    color:black;
+    background-color: white;
+    border: 1px groove red;
+    
+       
+}
+
+a:link, a:active {
+    color:hotpink;
+    
+}
+a:visited {
+    color:blueviolet;
+}
+a:hover {
+    color:white;
+}
+span:hover {
+    color:black;
+    font-size: 30px;
+}
