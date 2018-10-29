@@ -1,0 +1,240 @@
+/* This is the stylesheet for Tomorrows technology webpage */
+body{
+    width: 90%;
+    height: 1000px;
+    margin: 25px auto;
+    background-color: white;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+/* Section that holds the image */
+section{
+    width: 70%;
+    height: 450px;
+    float: left;
+    margin: 10px;
+}
+section .img{
+    background: url('./main.jpg') no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+/* Title with Figcaption */
+h1{
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   width: 100%;
+}
+figcaption{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+/* Stand alone div box */
+.techbox {
+    border: none;
+    background: grey;
+    color:white;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Aside */
+aside {
+    width: 25%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    flex-direction: column;
+}
+aside h2{
+    font: bold;
+    border-bottom: 2px solid black;
+    padding:4px;
+}
+aside p{
+    font: 16px bold;
+}
+/* footer  */
+footer {
+    background-color: rgb(112, 112, 112);
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 250px;
+    color:white;
+}
+.column h2{
+    width: 250px;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    
+}
+.column li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.column a:link, a:active, a:hover{
+    color:white;
+    text-decoration: none;
+
+}
+.column a:visited{
+    color:white;
+}
+.column li i{
+    color: white;
+    float: right;
+}
+/* Media Queries */
+@media screen and (min-width: 200px) and (max-width: 580px) {
+    body {
+        background-color: white;
+        display: block;
+        width: 90%;
+        height: auto;
+}
+    section {
+         width: 90%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+}
+    .techbox{
+        display: flex;
+        position: relative;
+        top: 25px;
+    }
+    aside{
+        display: flex;
+        
+        justify-content: flex-start;
+        width: 100%;
+        height: 320px;
+}
+    aside h2{
+        width:90%;
+}
+    aside P{
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: bold;
+}
+    footer{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        position: relative;
+        top:-5px;
+        font-size: small;
+}
+}
+    .column{
+        height: 100%;
+        display: block;
+    
+}
+    .column h2{
+        color:white;
+        display:flex;
+        flex-wrap:wrap;
+        width:100%;
+}
+    .column li{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        position: relative;
+        right: 40px;
+}   
+@media screen and (min-width: 581px) and (max-width: 991px) {
+   body {
+        background-color: white;
+        display: block;
+        width: 90%;
+        height: auto;
+}
+    section {
+         width: 90%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+}
+    .techbox{
+        display: flex;
+        position: relative;
+        top: 25px;
+    }
+    aside{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        height: 300px;
+}
+    aside h2{
+        width:90%;
+}
+    aside P{
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: bold;
+}
+    footer{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        position: relative;
+        top:-5px;
+        font-size: small;
+}
+}
+    .column{
+        height: 100%;
+        display: block;
+    
+}
+    .column h2{
+        color:white;
+        display:flex;
+        flex-wrap:wrap;
+        width:100%;
+}
+    .column li{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        position: relative;
+        right: 40px;
+}   
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: white;
+    }
+}
