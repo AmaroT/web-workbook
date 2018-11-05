@@ -46,7 +46,7 @@ h1:hover {
     opacity: .8;
 }
 .img-cont {
-    background:url(/css/hands_beer.jpg)no-repeat;
+    background:url('./hands_beer.jpg')no-repeat;
     background-size: cover;
     width: 100%;
     height: 500px;
