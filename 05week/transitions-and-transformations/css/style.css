@@ -1,0 +1,87 @@
+/* This is the stylesheet for Transistions and Transformation */
+body{
+    width: 50px;
+    margin:0 auto;
+}
+.b1 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color:red;
+    
+    
+}
+.b2 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color:blue;
+}
+.b3 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color:green;
+}
+.b4 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color:black;
+
+}
+.b5 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color:maroon;
+}
+.b6 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color:peru;
+}
+.b7 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color:yellow;
+}
+.b8 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color:magenta;
+}
+.b9 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color:gold;
+}
+.b10 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color:violet;
+}
+.b11 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color:darkolivegreen;
+}
+.b12 {
+    width:100px;
+    height:100px;
+    transition: transform 1s;
+    background-color: dodgerblue;
+}
+
+.container > div:nth-child(odd):hover{
+transform: translate(200px) scale(.5) rotate(360deg);
+}
+.container > div:nth-child(even):hover{
+    transform: translate(-200px) scale(2) rotate(-360deg);
+}
